@@ -1,10 +1,10 @@
-# Epic Plane
+# Tripeaks Adventure
 
-- **Domain:** epicplane.org
-- **Repo:** epicplane
-- **Slug:** epicplane
+- **Domain:** tripeaksadventure.com
+- **Repo:** tripeaksadventure
+- **Slug:** tripeaksadventure
 - **Genre:** Casual
-- **Iframe:** https://epicplane.org
+- **Iframe:** https://tripeaksadventure.com
 
 ## Quick start
 
@@ -20,11 +20,11 @@ To regenerate:
 
 ```bash
 ANTHROPIC_API_KEY=sk-... node ../generate-content.js \
-  --name   "Epic Plane" \
-  --domain "epicplane.org" \
-  --slug   "epicplane" \
+  --name   "Tripeaks Adventure" \
+  --domain "tripeaksadventure.com" \
+  --slug   "tripeaksadventure" \
   --genre  "Casual" \
-  --iframe "https://epicplane.org" \
+  --iframe "https://tripeaksadventure.com" \
   --out    ./content/game.json
 ```
 

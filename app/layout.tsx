@@ -20,37 +20,37 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: {
-    default: "Epic Plane – Free Online Browser Game",
-    template: "%s | Epic Plane",
+    default: "Tripeaks Adventure – Free Online Browser Game",
+    template: "%s | Tripeaks Adventure",
   },
   description:
-    "Play Epic Plane online free — Play Epic Plane free online — no download, no account needed. No download, no account needed.",
+    "Play Tripeaks Adventure online free — Play Tripeaks Adventure free online — no download, no account needed. No download, no account needed.",
   keywords: [
-    "Epic Plane",
-    "Epic Plane online",
-    "Epic Plane free",
+    "Tripeaks Adventure",
+    "Tripeaks Adventure online",
+    "Tripeaks Adventure free",
     "free online game",
     "browser game",
     "casual game",
   ],
-  authors: [{ name: "Epic Plane Team" }],
-  creator: "Epic Plane",
-  publisher: "Epic Plane",
-  metadataBase: new URL("https://epicplane.org"),
+  authors: [{ name: "Tripeaks Adventure Team" }],
+  creator: "Tripeaks Adventure",
+  publisher: "Tripeaks Adventure",
+  metadataBase: new URL("https://tripeaksadventure.com"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Epic Plane",
-    title: "Epic Plane – Free Online Browser Game",
+    siteName: "Tripeaks Adventure",
+    title: "Tripeaks Adventure – Free Online Browser Game",
     description:
-      "Play Epic Plane free in your browser — Play Epic Plane free online — no download, no account needed.",
-    url: "https://epicplane.org",
+      "Play Tripeaks Adventure free in your browser — Play Tripeaks Adventure free online — no download, no account needed.",
+    url: "https://tripeaksadventure.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Epic Plane – Free Online Browser Game",
+    title: "Tripeaks Adventure – Free Online Browser Game",
     description:
-      "Play Epic Plane free online — no download, no account needed. Play free online!",
+      "Play Tripeaks Adventure free online — no download, no account needed. Play free online!",
   },
   robots: {
     index: true,
@@ -88,15 +88,15 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "Epic Plane",
-              url: "https://epicplane.org",
+              name: "Tripeaks Adventure",
+              url: "https://tripeaksadventure.com",
               description:
-                "Play Epic Plane free online — no download, no account needed.",
+                "Play Tripeaks Adventure free online — no download, no account needed.",
               potentialAction: {
                 "@type": "SearchAction",
                 target: {
                   "@type": "EntryPoint",
-                  urlTemplate: "https://epicplane.org/blog?q={search_term_string}",
+                  urlTemplate: "https://tripeaksadventure.com/blog?q={search_term_string}",
                 },
                 "query-input": "required name=search_term_string",
               },
@@ -109,16 +109,16 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Epic Plane",
-              url: "https://epicplane.org",
+              name: "Tripeaks Adventure",
+              url: "https://tripeaksadventure.com",
               logo: {
                 "@type": "ImageObject",
-                url: "https://epicplane.org/og-image.png",
+                url: "https://tripeaksadventure.com/og-image.png",
               },
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "customer support",
-                url: "https://epicplane.org/contact",
+                url: "https://tripeaksadventure.com/contact",
               },
             }),
           }}

@@ -10,7 +10,7 @@ export default function MobileGamePreview() {
 
       <GameIframe
         src="/game/index.html"
-        title="Epic Plane – Try a level"
+        title="Tripeaks Adventure – Try a level"
         scrolling="no"
         className="game-iframe-responsive"
       />

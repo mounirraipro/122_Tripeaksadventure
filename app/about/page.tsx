@@ -5,13 +5,13 @@ const aboutSchema = [
     {
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
-        name: 'About Epic Plane',
-        url: 'https://epicplane.org/about',
-        description: 'Learn about Epic Plane, our mission, and the team behind the game.',
+        name: 'About Tripeaks Adventure',
+        url: 'https://tripeaksadventure.com/about',
+        description: 'Learn about Tripeaks Adventure, our mission, and the team behind the game.',
         publisher: {
             '@type': 'Organization',
-            name: 'Epic Plane',
-            url: 'https://epicplane.org',
+            name: 'Tripeaks Adventure',
+            url: 'https://tripeaksadventure.com',
         },
     },
     {
@@ -19,20 +19,20 @@ const aboutSchema = [
         '@type': 'Person',
         name: 'Lahcen Aharouane',
         jobTitle: 'Game Designer & Web Developer',
-        url: 'https://epicplane.org/about',
+        url: 'https://tripeaksadventure.com/about',
         worksFor: {
             '@type': 'Organization',
-            name: 'Epic Plane',
-            url: 'https://epicplane.org',
+            name: 'Tripeaks Adventure',
+            url: 'https://tripeaksadventure.com',
         },
         description: 'Game designer and web developer specialising in browser-based games and SEO-optimised game landing pages.',
     },
 ];
 
 export const metadata: Metadata = {
-    title: 'About Us – Epic Plane',
-    description: 'Learn about Epic Plane, our mission, and the team behind the game.',
-    keywords: ['about Epic Plane', 'game team', 'who made Epic Plane'],
+    title: 'About Us – Tripeaks Adventure',
+    description: 'Learn about Tripeaks Adventure, our mission, and the team behind the game.',
+    keywords: ['about Tripeaks Adventure', 'game team', 'who made Tripeaks Adventure'],
 };
 
 export default function AboutPage() {
@@ -41,7 +41,7 @@ export default function AboutPage() {
             <JsonLd schema={aboutSchema} />
             <div className="page-header">
                 <div className="container">
-                    <h1 className="gradient-text">About Epic Plane</h1>
+                    <h1 className="gradient-text">About Tripeaks Adventure</h1>
                     <p>Our story, mission, and the passion behind every level.</p>
                 </div>
             </div>
@@ -49,14 +49,14 @@ export default function AboutPage() {
             <div className="page-content">
                 <h2>Our Story</h2>
                 <p>
-                    Epic Plane was born from a simple idea: what if playing Epic Plane could be even simpler and more accessible?. The result is a game
+                    Tripeaks Adventure was born from a simple idea: what if playing Tripeaks Adventure could be even simpler and more accessible?. The result is a game
                     that&apos;s instantly intuitive yet endlessly engaging — an experience unlike any other on the web.
                 </p>
                 <p>
-                    We launched Epic Plane with a clear vision — to create a free, accessible, and
+                    We launched Tripeaks Adventure with a clear vision — to create a free, accessible, and
                     beautifully designed game that anyone can enjoy. Whether you&apos;re taking a break,
                     unwinding after work, or looking for something your whole family can enjoy,
-                    Epic Plane has something for you.
+                    Tripeaks Adventure has something for you.
                 </p>
 
                 <h2>Our Mission</h2>
@@ -66,13 +66,13 @@ export default function AboutPage() {
                     is to make high-quality game experiences freely available to everyone, everywhere.
                 </p>
                 <p>
-                    Every level in Epic Plane is handcrafted with care. We obsess over the details
+                    Every level in Tripeaks Adventure is handcrafted with care. We obsess over the details
                     so you can simply enjoy the game.
                 </p>
 
                 <h2>What Makes Us Different</h2>
                 <p>
-                    Epic Plane offers a unique experience compared to similar games in its category.
+                    Tripeaks Adventure offers a unique experience compared to similar games in its category.
                 </p>
 
                 <h3>Key Features</h3>
@@ -103,7 +103,7 @@ export default function AboutPage() {
                 <p>
                     We love hearing from our community! Whether you have feedback, suggestions, bug reports,
                     or just want to say hello, don&apos;t hesitate to reach out through our{' '}
-                    <a href="/contact">Contact page</a>. Your input helps us make Epic Plane better for
+                    <a href="/contact">Contact page</a>. Your input helps us make Tripeaks Adventure better for
                     everyone.
                 </p>
             </div>
